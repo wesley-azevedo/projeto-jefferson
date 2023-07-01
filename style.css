@@ -96,3 +96,23 @@ a {
   color: red;
   margin-top: 5px;
 }
+
+@media (max-width: 480px) {
+  body {
+    justify-content: flex-start;
+    height: auto;
+  }
+  
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 0;
+  }
+  
+  img {
+    width: 150px;
+    margin-bottom: 30px;
+  }
+}
+
