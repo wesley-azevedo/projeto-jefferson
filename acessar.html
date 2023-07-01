@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acessar</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Acessar</h1>
+    <form action="/login" method="post">
+      <input type="email" name="email" placeholder="E-mail" required>
+      <input type="password" name="password" placeholder="Senha" required>
+      <button type="submit">Acessar</button>
+    </form>
+    <p class="error-message">Mensagem de erro aqui</p>
+    <a href="/resetar">Esqueci a senha</a>
+    <a href="/cadastrar">Cadastrar novo usuário</a>
+  </div>
+</body>
+</html>
