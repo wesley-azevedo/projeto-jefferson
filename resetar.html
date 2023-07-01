@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resetar Senha</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Resetar Senha</h1>
+    <form action="/resetar" method="post">
+      <input type="email" name="email" placeholder="E-mail" required>
+      <button type="submit">Resetar</button>
+    </form>
+    <div class="result-box">
+      <p class="email">E-mail: exemplo@exemplo.com</p>
+      <p class="new-password">Nova senha: 1234567890</p>
+    </div>
+  </div>
+</body>
+</html>
